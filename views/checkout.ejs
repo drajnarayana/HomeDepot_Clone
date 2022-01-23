@@ -137,7 +137,7 @@
    alert(a)
     let details = async (a) => {
       try {
-        let res = await fetch(`http://localhost:2345/users/${a}`);
+        let res = await fetch(`https://thehomedepot.herokuapp.com/users/${a}`);
         let data = await res.json();
         console.log(data);
         console.log(data.email)
