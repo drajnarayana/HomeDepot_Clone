@@ -60,7 +60,7 @@ function displayData(productArr){
         img.setAttribute("class","productImg")
         img.setAttribute("src",productData.main_image);
         img.addEventListener("click",()=>{
-            window.location.href = "http://localhost:2345/products/description";
+            window.location.href = "https://thehomedepot.herokuapp.com/products/description";
             localStorage.setItem("products",JSON.stringify(productData));
             
         })
@@ -209,7 +209,7 @@ function displayData(productArr){
          
             console.log("productData line 210",productData)
             localStorage.setItem("products",JSON.stringify(productData));
-               window.location.href = "http://localhost:2345/products/description";
+               window.location.href = "https://thehomedepot.herokuapp.com/products/description";
             
         })
         // hover effect

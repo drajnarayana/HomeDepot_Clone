@@ -24,15 +24,15 @@ app.get("",(req,res)=>{
 //Product Page
 app.use("/products",productController)
 
-// //for register page
-// app.use("/register",registerController);
+//for register page
+app.use("/register",registerController);
 
 // //for login page
-// app.use("/email_login",loginController);
+app.use("/email_login",loginController);
 
-// app.use("/address",addressController)
+app.use("/address",addressController)
 
-// app.use("/users",userController)
+app.use("/users",userController)
 
 // //404 Error Page
 // app.get("*",(req,res)=>{
