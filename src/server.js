@@ -22,7 +22,7 @@ app.get("",(req,res)=>{
 });
 
 //Product Page
-// app.use("/products",productController)
+app.use("/products",productController)
 
 // //for register page
 // app.use("/register",registerController);
