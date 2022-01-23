@@ -2,7 +2,7 @@
 
   data= async(page,size)=>{
 //    console.log("page","size",page,size)
-   const response=await fetch(`http://localhost:2345/products/all?page=${page}&size=${size}`)
+   const response=await fetch(`https://thehomedepot.herokuapp.com/products/all?page=${page}&size=${size}`)
    let productsData=await response.json()
    console.log("productData",productsData)
    displayData(productsData);
