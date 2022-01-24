@@ -12,6 +12,7 @@ router.get("/description",async(req,res)=>{
         res.render('product_description.ejs')
 
 })
+
 router.get("/cart",async(req,res)=>{
            res.render('cart.ejs')
 })
