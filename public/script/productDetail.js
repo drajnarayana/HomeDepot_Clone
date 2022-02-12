@@ -104,3 +104,11 @@ function displayProduct(product){
    priceTag.append(price,totalsell)
     })
 }
+
+document.getElementById("cartBtn").addEventListener("click",function(){
+  let bag = JSON.parse(localStorage.getItem("cart")) || [];
+  let cartStore = JSON.parse(localStorage.getItem("products")) || [];
+  bag.push(cartStore)
+  localStorage.setItem("cart",JSON.stringify(bag))
+  window.location.href="https://thehomedepot.herokuapp.com/products/cart"
+})

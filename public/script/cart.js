@@ -1,16 +1,17 @@
 
 
-let cartStore = JSON.parse(localStorage.getItem("products")) || [];
+// let cartStore = JSON.parse(localStorage.getItem("products")) || [];
 let bag = JSON.parse(localStorage.getItem("cart")) || [];
-bag.push(cartStore)
-let cart =localStorage.setItem("cart",JSON.stringify(bag))
+// bag.push(cartStore)
+// let cart =localStorage.setItem("cart",JSON.stringify(bag))
 
 // console.log("cart",cart)
 
-let totalAmount = 0;
+
 
  function displayData(bag){
-    //  console.log("bag",bag)
+    let totalAmount = 0;
+     console.log("bag",bag)
     document.querySelector(".cartWrapper").innerHTML = ""; 
     bag.map((product)=>{
     //    console.log("product",product)
@@ -131,10 +132,39 @@ let totalAmount = 0;
         console.log(bag)
         cart =localStorage.setItem("cart",JSON.stringify(bag))
         bag = JSON.parse(localStorage.getItem("cart")) || [];
-        displayData(bag);
-        totalAmount = 0;
+        if(bag.length>0){
+            displayData(bag);
+        }
+        else{
+            location.reload()
+        }
+       
     }
 
-    window.addEventListener("load",function(){
+    
         displayData(bag);
-    })
+
+
+        document.getElementById("checkout").addEventListener("click",function(){
+            let bag = JSON.parse(localStorage.getItem("cart")) ||[]
+            if(bag.length==0){
+                alert("Add Items")
+            }
+            else{
+                window.location.href="https://thehomedepot.herokuapp.com/products/checkout"
+            }
+
+        })
+
+      
+        document.getElementById("paypal").addEventListener("click",function(){
+            let bag = JSON.parse(localStorage.getItem("cart")) ||[]
+            if(bag.length==0){
+                alert("Add Items")
+            }
+            else{
+                window.location.href="https://thehomedepot.herokuapp.com/products/checkout"
+            }
+
+        })
+    
