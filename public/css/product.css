@@ -301,7 +301,7 @@ cursor: pointer;
     height:50px;
     width:250px;
     margin: auto;
-    border:1px solid black;
+   
 }
 .pagination{
     display: flex;
