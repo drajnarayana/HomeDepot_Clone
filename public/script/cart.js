@@ -1,11 +1,8 @@
 
 
-// let cartStore = JSON.parse(localStorage.getItem("products")) || [];
-let bag = JSON.parse(localStorage.getItem("cart")) || [];
-// bag.push(cartStore)
-// let cart =localStorage.setItem("cart",JSON.stringify(bag))
 
-// console.log("cart",cart)
+let bag = JSON.parse(localStorage.getItem("cart")) || [];
+
 
 
 
@@ -14,7 +11,7 @@ let bag = JSON.parse(localStorage.getItem("cart")) || [];
      console.log("bag",bag)
     document.querySelector(".cartWrapper").innerHTML = ""; 
     bag.map((product)=>{
-    //    console.log("product",product)
+  
         let productContainer = document.createElement("div");
         productContainer.setAttribute("class","productContainer");
 
@@ -97,8 +94,7 @@ let bag = JSON.parse(localStorage.getItem("cart")) || [];
 
         // Count total price
         totalAmount += Number(product.current_price);
-        // totalAmount = totalAmount.toFixed(2);
-        // console.log(totalAmount);
+     
 
         localStorage.setItem("totalAmt", JSON.stringify(totalAmount));
 
