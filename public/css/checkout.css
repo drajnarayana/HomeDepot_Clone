@@ -20,21 +20,9 @@ display:inline-block;
 margin-left:10%;
 margin-top:2%;
 }
-#mdiv2{
-  border:1px solid red;
-  margin:50px;
-background-color: #E6E3E3;
-   height:500px;
-   width:450px;
 
-}
 
-#priceDiv{
-  height:50px;
-  width:200px;
-  margin:20px;
-  border:1px solid green;
-}
+
 .name{
   display:inline-block;
   width:46%;
@@ -76,4 +64,100 @@ font-size: 18px;
   font-size:12px;
   font-weight:100;
   margin-top:20px;
+}
+
+
+/* =============================
+=================================
+Design Shipping Details By Shyamal
+===================================
+==================================*/
+#mdiv2{
+  border:1px solid rgb(216, 213, 213);
+  margin:50px;
+   background-color: #E6E3E3;
+   height:500px;
+   width:450px;
+  padding: 5px;
+}
+
+
+#priceDiv{
+  display: flex;
+  flex-direction: column;
+  /* border:1px solid green; */
+  background-color: white;
+  padding: 5px;
+}
+
+.yourOrder{
+  display: flex;
+  justify-content: space-between;
+  background-color: #E6E3E3;
+  border-bottom: 10px;
+}
+
+.ship{
+  display: flex;
+  align-items: center;
+}
+
+.box1,.box2,.box3,.box4{
+  display: flex;
+  justify-content: space-between;
+}
+
+.total{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+
+/* =================================
+====================================
+End Desing of Shipping Code
+===================================
+=================================== */
+#paypal{
+  vertical-align:top;
+}
+#btn1{
+  height:32px;
+  width:40%;
+  background-color:rgb(249,99,2)
+}
+#info{
+  font-size:12px;
+  font-weight:100;
+  margin-top:20px;
+}
+#creditDiv{
+  /* border:1px solid red; */
+  width:80%;
+  margin-left:8%;
+  display:none;
+}
+#crdno{
+  width:96%;
+  height:32px;
+  margin-bottom:2%;
+  margin-top:2%;
+}
+#creditDiv>label{
+  margin-top: 1%;
+}
+#creditDiv>select{
+  margin-top:2%;
+  width:20%;
+  height:30px;
+}
+#lbl2{
+  float:right;
+  margin-right:2%;
+}
+#cvvno{
+  width:30%;
+  height:24px;
+  margin-left:7%;
 }
