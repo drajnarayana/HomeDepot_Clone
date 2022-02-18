@@ -1,4 +1,4 @@
-<img height="400px" width="400px" src="Images/Logo.png">
+<div align="center"><img height="350px" src="Images/Logo.png"></div>
 
 Home Depot, is the largest home improvement retailer in the United States, supplying tools, construction products, appliances, and services.
 
