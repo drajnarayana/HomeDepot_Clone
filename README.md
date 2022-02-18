@@ -60,25 +60,31 @@ To run this application on your local system, execute the following commands on 
 ## Screenshots
 A glimpse of our website
 
-**Home Page:**
+<h2>Home Page:</h2>
+
 <img src="Images/Landingpage.png">
 
-**Signin Page:**
+<h2>Signin Page:</h2>
+
 <img src="Images/sigin.png">
 
-**Register Page:**
+<h2>Register Page:<h2>
+  
 <img src="Images/register.png">
 
-**Product Page:**
+<h2>Product Page:<h2>
+  
 <img src="Images/product page.png">
 
-**Product Description Page:**
+<h2>Product Description Page:<h2>
+  
 <img src="Images/product description.png">
 
-**Cart Page:**
+<h2>Cart Page:</h2>
+  
 <img src="Images/cartpage.png">
 
-**Checkout Page:**
+<h2>Checkout Page:</h2>
 <img src="Images/checkout.png">
 
 ## Authors
