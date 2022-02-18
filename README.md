@@ -64,6 +64,27 @@ A glimpse of our website
 **Home Page:**
 <img src="Images/Landingpage.png">
 
+**Signin Page:**
+<img src="Images/sigin.png">
 
+**Register Page:**
+<img src="Images/register.png">
+
+**Product Page:**
+<img src="Images/product page.png">
+
+**Product Description Page:**
+<img src="Images/product description.png">
+
+**Cart Page:**
+<img src="Images/cartpage.png">
+
+**Checkout Page:**
+<img src="Images/checkout.png">
+
+##Authors
+
+- [@drajnarayana](https://github.com/drajnarayana)
+- [@SJha29](https://github.com/SJha29)
 
 
