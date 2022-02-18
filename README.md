@@ -1,4 +1,3 @@
-# The Home Depot Clone
 <img height="400px" width="400px" src="Images/Logo.png">
 
 Home Depot, is the largest home improvement retailer in the United States, supplying tools, construction products, appliances, and services.
