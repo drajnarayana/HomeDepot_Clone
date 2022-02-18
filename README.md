@@ -32,7 +32,7 @@ To run this application on your local system, execute the following commands on 
   
   ## Features 
 <!-- --- -->
-- User can Sigin and Registration functionality on home page.
+- User can Signin and Registration functionality on home page.
 - On product page particular category products with multiple sorting options displayed.
 - Users can add multiple products to their cart with total price details.
 - On Checkout page price is calculated dynamically.
