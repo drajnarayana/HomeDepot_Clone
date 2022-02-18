@@ -34,9 +34,36 @@ To run this application on your local system, execute the following commands on 
   ## Features 
 <!-- --- -->
 - User can Sigin and Registration functionality on home page.
-- On product page particular category products with multiple sorting options displayed like sort by Most popular, Top Rated etc.,
+- On product page particular category products with multiple sorting options displayed.
 - Users can add multiple products to their cart with total price details.
 - On Checkout page price is calculated dynamically.
+
+## Steps to navigate the website:
+<!-- <hr> -->
+- On the Landing Page header, user can click on the 'My Account' Icon to either Sign In or Rgeistration of an Account
+- Once the user has logged in, they are taken back to the Landing Page.
+- On the top nav-bar, the user can navigate to the following categories: `All Departments` or `Home Decor,Furniture`to open the products page
+
+- On the Products Page 
+  - On clicking on each product 'Add to Cart' button. Clicking on it, the user will be shown the details of the product.
+  - Along with the option to add the product to their Cart and Continue Shopping button redirects to product page.
+
+- On the Cart page
+  - The user can remove a product from the cart.
+  - The User can continue with Checkout and Paypal Checkout
+
+- On Checkout page, the user is supposed to
+  - Fill their First name, Last name ,Phone number Shipping address and Zip code
+  - Select a Shipping Method
+  - Enter their Credit/Debit card details or Paypal account
+  - User can Place the Order or Edit the cart item on redirecting to cart page
+
+## Screenshots
+A glimpse of our website
+
+**Home Page:**
+<img src="Images/Landingpage.png">
+
 
 
 
