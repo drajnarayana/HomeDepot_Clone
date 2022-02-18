@@ -1,4 +1,4 @@
-# homeDepot_Clone
+# The Home Depot Clone
 <img height="400px" width="400px" src="Images/Logo.png">
 
 Home Depot, is the largest home improvement retailer in the United States, supplying tools, construction products, appliances, and services.
@@ -64,11 +64,11 @@ A glimpse of our website
 **Home Page:**
 <img src="Images/Landingpage.png">
 
-**Signin Page:**
+<!-- **Signin Page:**
 <img src="Images/sigin.png">
 
 **Register Page:**
-<img src="Images/register.png">
+<img src="Images/register.png"> -->
 
 **Product Page:**
 <img src="Images/product page.png">
@@ -82,9 +82,9 @@ A glimpse of our website
 **Checkout Page:**
 <img src="Images/checkout.png">
 
-##Authors
-
+## Authors
+- [@Shyamal90](https://github.com/Shyamal90)
 - [@drajnarayana](https://github.com/drajnarayana)
-- [@SJha29](https://github.com/SJha29)
-
+- [@app3200](https://github.com/app3200)
+- [@Kajalkumari677](https://github.com/Kajalkumari677)
 
