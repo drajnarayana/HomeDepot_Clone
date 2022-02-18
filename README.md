@@ -63,11 +63,11 @@ A glimpse of our website
 **Home Page:**
 <img src="Images/Landingpage.png">
 
-<!-- **Signin Page:**
+**Signin Page:**
 <img src="Images/sigin.png">
 
 **Register Page:**
-<img src="Images/register.png"> -->
+<img src="Images/register.png">
 
 **Product Page:**
 <img src="Images/product page.png">
